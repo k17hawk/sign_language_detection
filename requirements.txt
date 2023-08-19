@@ -1,0 +1,13 @@
+tensorflow
+dvc
+pandas
+notebook
+numpy
+matplotlib
+seaborn
+mediapipe
+scikit-learn
+python-box
+joblib
+Flask
+-e .

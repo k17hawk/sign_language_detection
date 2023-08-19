@@ -1,0 +1,119 @@
+
+{% extends 'imports.html' %}
+{% block main %}
+
+<main>
+    {% include 'navbar.html' %}
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="center-button">
+                            <a href="#section_3" class="get-started-button">Get Started</a>
+                          </div>
+                          <style>
+                            .center-button {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 20vh;
+                            }
+
+                            .get-started-button {
+                            display: inline-block;
+                            padding: 15px 30px;
+                            background-color: #007bff;
+                            color: #fff;
+                            font-size: 18px;
+                            text-decoration: none;
+                            border-radius: 5px;
+                            transition: background-color 0.3s ease;
+                            }
+
+.get-started-button:hover {
+  background-color: #0056b3;
+}
+                          </style>
+                          
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            
+
+            <section class="timeline-section section-padding" id="section_3">
+                <div class="section-overlay"></div>
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                        
+                            <form id="uploadForm">
+                                
+                    
+                  
+                            </div>
+                            <style>
+                                .preview-image {
+              position: relative;
+            }
+            
+            .cancel-button {
+              position: absolute;
+              top: 5px;
+              right: 5px;
+              width: 20px;
+              height: 20px;
+              background: transparent;
+              border: none;
+              color: rgb(244, 242, 242);
+              font-size: 20px;
+              cursor: pointer;
+            }
+            .preview-video{
+                position: relative;
+            }
+            
+            .cancel-button {
+              position: absolute;
+              top: 5px;
+              right: 5px;
+              width: 20px;
+              height: 20px;
+              background: transparent;
+              border: none;
+              color: rgb(244, 241, 241);
+              font-size: 20px;
+              cursor: pointer;
+            
+            }
+            
+                            </style>                    
+                
+                            </form>
+                            
+                            <div id="webcamSection" class="text-center">
+                                
+                                <video id="webcamPreview" autoplay playsinline></video>
+                                
+                            <div id="resultSection" class="text-center">
+                                <button onclick="location.href='/handle_button'" class="btn btn-primary">Predict</button>
+    
+
+                        
+                        </div>
+                    </div>
+                </div>
+               
+                
+            </section>
+
+
+        </main>
+  
+    
+        {% endblock %}

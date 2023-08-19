@@ -1,0 +1,118 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/ASL_alphabet/pipeline/stg1_data_Ingestio.py
+    deps:
+    - path: configs/config.yaml
+      hash: md5
+      md5: ae9a463ab2432b32612f38f5f5ea7d2f
+      size: 805
+    - path: src/ASL_alphabet/pipeline/stg1_data_Ingestio.py
+      hash: md5
+      md5: 34317eea4b894b5aff59ffedb2226b49
+      size: 701
+    outs:
+    - path: artifacts/data_ingestion/ASL_Dataset/Train
+      hash: md5
+      md5: 318efb4e13d3f011a405390df3e2d65b.dir
+      size: 4972510671
+      nfiles: 165670
+  prepare_base_model:
+    cmd: python src/ASL_alphabet/pipeline/stg2_prepare_base_model.py
+    deps:
+    - path: configs/config.yaml
+      hash: md5
+      md5: ae9a463ab2432b32612f38f5f5ea7d2f
+      size: 805
+    - path: src/ASL_alphabet/pipeline/stg2_prepare_base_model.py
+      hash: md5
+      md5: a008ac2d43e376d60310673b679d7bc3
+      size: 769
+    params:
+      params.yaml:
+        CLASSES: 512
+        FINAL_OUTPUT_LAYERS: 28
+        IMAGE_SIZE:
+        - 28
+        - 28
+        - 1
+        KERNEL_LAYERS1: 75
+        KERNEL_LAYERS2: 50
+        KERNEL_LAYERS3: 25
+    outs:
+    - path: artifacts/prepare_base_model
+      hash: md5
+      md5: 931d1ec1ecf1f8e737e19e89acf95a05.dir
+      size: 1338104
+      nfiles: 2
+  training:
+    cmd: python src/ASL_alphabet/pipeline/stg3_training.py
+    deps:
+    - path: artifacts/data_ingestion/ASL_Dataset/Train
+      hash: md5
+      md5: 318efb4e13d3f011a405390df3e2d65b.dir
+      size: 4972510671
+      nfiles: 165670
+    - path: artifacts/prepare_base_model
+      hash: md5
+      md5: 931d1ec1ecf1f8e737e19e89acf95a05.dir
+      size: 1338104
+      nfiles: 2
+    - path: configs/config.yaml
+      hash: md5
+      md5: ae9a463ab2432b32612f38f5f5ea7d2f
+      size: 805
+    - path: src/ASL_alphabet/components/prepare_callback.py
+      hash: md5
+      md5: 1eead6ab8b8514812b34ca8fc55a8314
+      size: 1121
+    - path: src/ASL_alphabet/pipeline/stg3_training.py
+      hash: md5
+      md5: d85602845a221cc8620ceed45dac447c
+      size: 969
+    params:
+      params.yaml:
+        AUGMENTATION: true
+        BATCH_SIZE: 128
+        EPOCHS: 20
+        IMAGE_SIZE:
+        - 28
+        - 28
+        - 1
+    outs:
+    - path: artifacts/training/model.h5
+      hash: md5
+      md5: 0f0500ec24cd2c5cd795f12a0722cd80
+      size: 3273212
+  evaluation:
+    cmd: python src/ASL_alphabet/pipeline/stg4_evaluation.py
+    deps:
+    - path: artifacts/data_ingestion/ASL_Dataset/Train
+      hash: md5
+      md5: 318efb4e13d3f011a405390df3e2d65b.dir
+      size: 4972510671
+      nfiles: 165670
+    - path: artifacts/training/model.h5
+      hash: md5
+      md5: 0f0500ec24cd2c5cd795f12a0722cd80
+      size: 3273212
+    - path: configs/config.yaml
+      hash: md5
+      md5: ae9a463ab2432b32612f38f5f5ea7d2f
+      size: 805
+    - path: src/ASL_alphabet/pipeline/stg4_evaluation.py
+      hash: md5
+      md5: 4dff56890ad45e6100f58abfa36c61ea
+      size: 718
+    params:
+      params.yaml:
+        BATCH_SIZE: 128
+        IMAGE_SIZE:
+        - 28
+        - 28
+        - 1
+    outs:
+    - path: scores.json
+      hash: md5
+      md5: 92c9ea5118e2811a49208deb175a74af
+      size: 70

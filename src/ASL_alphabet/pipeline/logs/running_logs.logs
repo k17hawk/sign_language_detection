@@ -1,0 +1,16 @@
+[2023-07-14 22:53:35,922: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-14 22:53:35,922: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-14 22:53:36,361: INFO: stg1_data_Ingestio]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-07-14 22:53:36,361: ERROR: stg1_data_Ingestio]: [Errno 2] No such file or directory: 'configs/config.yaml'
+Traceback (most recent call last):
+  File "stg1_data_Ingestio.py", line 16, in <module>
+    main()
+  File "stg1_data_Ingestio.py", line 8, in main
+    config = ConfigurationManager()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/config/configurations.py", line 17, in __init__
+    self.config = read_yaml(config_filepath)
+  File "/home/lang_chain/Documents/ASL_alphabet/.venv/lib/python3.8/site-packages/ensure/main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/utils/utility.py", line 25, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'configs/config.yaml'

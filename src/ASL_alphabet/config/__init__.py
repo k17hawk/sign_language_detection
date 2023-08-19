@@ -1,0 +1,1 @@
+from  ASL_alphabet.config.configurations import ConfigurationManager

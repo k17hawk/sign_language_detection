@@ -1,0 +1,620 @@
+x==========x
+[2023-07-08 14:55:27,276: INFO: stg1]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-07-08 14:55:27,277: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-08 14:55:27,278: INFO: utility]: created directory at: artifacts
+[2023-07-08 14:55:27,290: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-07-08 14:55:27,291: INFO: data_ingestion]: Trying to download file...
+[2023-07-08 14:55:27,291: INFO: data_ingestion]: File already exists of size: ~ 4861388 KB
+[2023-07-08 14:55:27,291: INFO: stg1]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2023-07-08 14:56:07,285: INFO: stg1]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-07-08 14:56:07,288: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-08 14:56:07,288: INFO: utility]: created directory at: artifacts
+[2023-07-08 14:56:07,289: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-07-08 14:56:07,289: INFO: data_ingestion]: Trying to download file...
+[2023-07-08 14:56:07,290: INFO: data_ingestion]: File already exists of size: ~ 4861388 KB
+[2023-07-08 14:56:29,907: INFO: data_ingestion]: extraction completed
+[2023-07-08 14:56:29,942: INFO: stg1]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2023-07-10 20:47:35,193: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 20:47:35,195: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 20:47:35,196: INFO: utility]: created directory at: artifacts
+[2023-07-10 20:47:35,196: INFO: utility]: created directory at: artifacts/prepare_base_model
+[2023-07-10 21:08:03,841: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 21:08:03,843: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 21:08:03,843: INFO: utility]: created directory at: artifacts
+[2023-07-10 21:08:03,844: INFO: utility]: created directory at: artifacts/prepare_base_model
+[2023-07-10 21:08:03,917: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2023-07-10 21:25:33,802: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 21:25:33,806: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 21:25:33,807: INFO: utility]: created directory at: artifacts
+[2023-07-10 21:25:33,807: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 21:25:33,808: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 21:27:31,774: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 21:27:31,776: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 21:27:31,777: INFO: utility]: created directory at: artifacts
+[2023-07-10 21:27:31,777: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 21:27:31,778: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 21:29:32,609: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 21:29:32,612: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 21:29:32,612: INFO: utility]: created directory at: artifacts
+[2023-07-10 21:29:32,613: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 21:29:32,613: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 21:30:31,563: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 21:30:31,565: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 21:30:31,565: INFO: utility]: created directory at: artifacts
+[2023-07-10 21:30:31,566: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 21:30:31,566: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 21:31:17,592: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 21:31:17,594: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 21:31:17,594: INFO: utility]: created directory at: artifacts
+[2023-07-10 21:31:17,595: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 21:31:17,595: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 21:32:19,241: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 21:32:19,243: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 21:32:19,244: INFO: utility]: created directory at: artifacts
+[2023-07-10 21:32:19,244: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 21:32:19,244: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 22:07:49,646: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 22:07:49,648: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 22:07:49,649: INFO: utility]: created directory at: artifacts
+[2023-07-10 22:07:49,650: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 22:07:49,650: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 22:11:30,329: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 22:11:30,331: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 22:11:30,331: INFO: utility]: created directory at: artifacts
+[2023-07-10 22:11:30,331: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 22:11:30,332: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 22:12:34,155: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 22:12:34,156: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 22:12:34,157: INFO: utility]: created directory at: artifacts
+[2023-07-10 22:12:34,157: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 22:12:34,157: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 22:13:28,993: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 22:13:28,995: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 22:13:28,996: INFO: utility]: created directory at: artifacts
+[2023-07-10 22:13:28,996: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 22:13:28,996: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 22:17:04,581: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 22:17:04,583: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 22:17:04,583: INFO: utility]: created directory at: artifacts
+[2023-07-10 22:17:04,584: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 22:17:04,584: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 22:20:51,021: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 22:20:51,023: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 22:20:51,023: INFO: utility]: created directory at: artifacts
+[2023-07-10 22:20:51,024: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 22:20:51,024: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 22:35:19,943: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 22:35:19,946: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 22:35:19,947: INFO: utility]: created directory at: artifacts
+[2023-07-10 22:35:19,948: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 22:35:19,949: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 22:45:54,812: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 22:45:54,814: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 22:45:54,814: INFO: utility]: created directory at: artifacts
+[2023-07-10 22:45:54,814: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 22:45:54,815: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 22:47:30,117: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 22:47:30,120: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 22:47:30,121: INFO: utility]: created directory at: artifacts
+[2023-07-10 22:47:30,121: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 22:47:30,121: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 22:55:12,852: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 22:55:12,854: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 22:55:12,855: INFO: utility]: created directory at: artifacts
+[2023-07-10 22:55:12,855: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 22:55:12,856: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 23:37:41,964: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-10 23:37:41,965: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-10 23:37:42,199: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 23:37:42,201: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 23:37:42,201: INFO: utility]: created directory at: artifacts
+[2023-07-10 23:37:42,202: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 23:37:42,202: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-10 23:46:35,299: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-10 23:46:35,301: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-10 23:46:35,302: INFO: utility]: created directory at: artifacts
+[2023-07-10 23:46:35,302: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-10 23:46:35,303: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 00:11:58,235: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 00:11:58,235: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 00:11:58,528: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 00:11:58,530: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 00:11:58,531: INFO: utility]: created directory at: artifacts
+[2023-07-11 00:11:58,532: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 00:11:58,532: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 00:29:19,756: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 00:29:19,757: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 00:29:19,992: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 00:29:19,994: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 00:29:19,994: INFO: utility]: created directory at: artifacts
+[2023-07-11 00:29:19,995: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 00:29:19,995: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 00:31:58,116: WARNING: deprecation]: From /tmp/ipykernel_9700/337460670.py:1: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+[2023-07-11 09:18:52,337: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 09:18:52,340: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 09:18:52,341: INFO: utility]: created directory at: artifacts
+[2023-07-11 09:18:52,342: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 09:18:52,343: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 09:25:49,636: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 09:25:49,637: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 09:25:50,026: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 09:25:50,028: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 09:25:50,029: INFO: utility]: created directory at: artifacts
+[2023-07-11 09:25:50,030: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 09:25:50,030: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 14:13:23,645: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 14:13:23,646: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 14:13:23,944: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 14:13:23,946: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 14:13:23,946: INFO: utility]: created directory at: artifacts
+[2023-07-11 14:13:23,946: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 14:13:23,947: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 14:13:48,368: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 14:13:48,370: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 14:13:48,371: INFO: utility]: created directory at: artifacts
+[2023-07-11 14:13:48,371: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 14:13:48,371: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 14:14:30,448: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 14:14:30,449: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 14:14:30,717: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 14:14:30,719: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 14:14:30,720: INFO: utility]: created directory at: artifacts
+[2023-07-11 14:14:30,720: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 14:14:30,721: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 14:18:27,311: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 14:18:27,312: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 14:18:27,577: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 14:18:27,579: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 14:18:27,579: INFO: utility]: created directory at: artifacts
+[2023-07-11 14:18:27,580: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 14:18:27,580: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 14:19:19,700: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 14:19:19,701: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 14:19:19,702: INFO: utility]: created directory at: artifacts
+[2023-07-11 14:19:19,702: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 14:19:19,703: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 14:20:11,153: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 14:20:11,155: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 14:20:11,155: INFO: utility]: created directory at: artifacts
+[2023-07-11 14:20:11,156: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 14:20:11,156: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 14:21:00,431: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 14:21:00,433: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 14:21:00,434: INFO: utility]: created directory at: artifacts
+[2023-07-11 14:21:00,435: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 14:21:00,435: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 16:41:20,417: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 16:41:20,418: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 16:43:15,919: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 16:43:15,920: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 16:43:18,465: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 16:43:18,467: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 16:43:18,468: INFO: utility]: created directory at: artifacts
+[2023-07-11 16:43:18,469: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 16:43:18,469: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 16:45:02,890: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 16:45:02,892: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 16:45:02,892: INFO: utility]: created directory at: artifacts
+[2023-07-11 16:45:02,893: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 16:45:02,893: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 16:45:02,894: INFO: utility]: created directory at: artifacts/training
+[2023-07-11 17:32:35,825: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 17:32:35,825: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 17:32:38,850: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 17:32:38,852: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 17:32:38,853: INFO: utility]: created directory at: artifacts
+[2023-07-11 17:32:38,854: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 17:32:38,855: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 17:34:06,746: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 17:34:06,747: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 17:34:06,748: INFO: utility]: created directory at: artifacts
+[2023-07-11 17:34:06,748: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 17:34:06,749: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 17:34:06,750: INFO: utility]: created directory at: artifacts/training
+[2023-07-11 17:42:46,749: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 17:42:46,750: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 17:42:47,034: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 17:42:47,036: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 17:42:47,036: INFO: utility]: created directory at: artifacts
+[2023-07-11 17:42:47,037: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 17:42:47,038: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 17:42:47,039: INFO: utility]: created directory at: artifacts/training
+[2023-07-11 18:06:31,411: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 18:06:31,412: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 18:06:31,824: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 18:06:31,827: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 18:06:31,827: INFO: utility]: created directory at: artifacts
+[2023-07-11 18:06:31,828: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 18:06:31,828: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 18:06:31,829: INFO: utility]: created directory at: artifacts/training
+[2023-07-11 19:38:35,413: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-11 19:38:35,414: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-11 19:38:35,837: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-11 19:38:35,839: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-11 19:38:35,840: INFO: utility]: created directory at: artifacts
+[2023-07-11 19:38:35,841: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-11 19:38:35,841: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-11 19:38:35,843: INFO: utility]: created directory at: artifacts/training
+[2023-07-14 19:37:11,763: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-14 19:37:11,776: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-14 19:37:11,778: INFO: utility]: created directory at: artifacts
+[2023-07-14 19:38:06,171: INFO: utility]: json file saved at: scores.json
+[2023-07-14 22:54:05,759: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-14 22:54:05,759: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-14 22:54:06,204: INFO: stg1_data_Ingestio]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-07-14 22:54:06,205: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-14 22:54:06,206: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-14 22:54:06,206: INFO: utility]: created directory at: artifacts
+[2023-07-14 22:54:06,207: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-07-14 22:54:06,207: INFO: data_ingestion]: Trying to download file...
+[2023-07-14 22:54:06,207: INFO: data_ingestion]: File already exists of size: ~ 4861388 KB
+[2023-07-14 22:54:06,207: INFO: stg1_data_Ingestio]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2023-07-14 22:59:27,857: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-14 22:59:27,857: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-14 22:59:28,334: INFO: stg1_data_Ingestio]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-07-14 22:59:28,335: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-14 22:59:28,336: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-14 22:59:28,336: INFO: utility]: created directory at: artifacts
+[2023-07-14 22:59:28,336: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-07-14 22:59:28,336: INFO: data_ingestion]: Trying to download file...
+[2023-07-14 22:59:28,337: INFO: data_ingestion]: File already exists of size: ~ 4861388 KB
+[2023-07-14 22:59:57,738: INFO: data_ingestion]: extraction completed
+[2023-07-14 22:59:57,775: INFO: stg1_data_Ingestio]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2023-07-14 23:03:17,458: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-14 23:03:17,458: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-14 23:03:18,124: INFO: stg2_prepare_base_model]: *******************
+[2023-07-14 23:03:18,124: INFO: stg2_prepare_base_model]: >>>>>> stage Prepare base model started <<<<<<
+[2023-07-14 23:03:18,126: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-14 23:03:18,127: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-14 23:03:18,127: INFO: utility]: created directory at: artifacts
+[2023-07-14 23:03:18,127: INFO: utility]: created directory at: artifacts/prepare_base_model
+[2023-07-14 23:03:18,127: ERROR: stg2_prepare_base_model]: "'ConfigBox' object has no attribute 'include_top'"
+Traceback (most recent call last):
+  File "box/box.py", line 587, in box.box.Box.__getitem__
+KeyError: 'INCLUDE_TOP'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 620, in box.box.Box.__getattr__
+  File "box/box.py", line 608, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'INCLUDE_TOP'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 622, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'INCLUDE_TOP'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 636, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'INCLUDE_TOP'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 587, in box.box.Box.__getitem__
+KeyError: 'include_top'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 620, in box.box.Box.__getattr__
+  File "box/box.py", line 608, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'include_top'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 622, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'include_top'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "src/ASL_alphabet/pipeline/stg2_prepare_base_model.py", line 18, in <module>
+    main()
+  File "src/ASL_alphabet/pipeline/stg2_prepare_base_model.py", line 9, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/config/configurations.py", line 52, in get_prepare_base_model_config
+    params_include_top= self.params.INCLUDE_TOP,
+  File "box/config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 636, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'include_top'"
+[2023-07-14 23:07:29,229: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-14 23:07:29,229: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-14 23:07:29,694: INFO: stg2_prepare_base_model]: *******************
+[2023-07-14 23:07:29,694: INFO: stg2_prepare_base_model]: >>>>>> stage Prepare base model started <<<<<<
+[2023-07-14 23:07:29,695: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-14 23:07:29,696: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-14 23:07:29,696: INFO: utility]: created directory at: artifacts
+[2023-07-14 23:07:29,697: INFO: utility]: created directory at: artifacts/prepare_base_model
+[2023-07-14 23:07:29,697: ERROR: stg2_prepare_base_model]: __init__() missing 1 required positional argument: 'params_include_top'
+Traceback (most recent call last):
+  File "src/ASL_alphabet/pipeline/stg2_prepare_base_model.py", line 18, in <module>
+    main()
+  File "src/ASL_alphabet/pipeline/stg2_prepare_base_model.py", line 9, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/config/configurations.py", line 40, in get_prepare_base_model_config
+    prepare_base_model_config = PrepareBaseModelConfig(
+TypeError: __init__() missing 1 required positional argument: 'params_include_top'
+[2023-07-14 23:11:18,156: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-14 23:11:18,156: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-14 23:11:18,640: INFO: stg2_prepare_base_model]: *******************
+[2023-07-14 23:11:18,640: INFO: stg2_prepare_base_model]: >>>>>> stage Prepare base model started <<<<<<
+[2023-07-14 23:11:18,641: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-14 23:11:18,642: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-14 23:11:18,642: INFO: utility]: created directory at: artifacts
+[2023-07-14 23:11:18,643: INFO: utility]: created directory at: artifacts/prepare_base_model
+[2023-07-14 23:11:19,497: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2023-07-14 23:11:19,569: INFO: stg2_prepare_base_model]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2023-07-14 23:14:29,110: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-14 23:14:29,110: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-14 23:14:29,545: INFO: stg3_training]: *******************
+[2023-07-14 23:14:29,545: INFO: stg3_training]: >>>>>> stage Training started <<<<<<
+[2023-07-14 23:14:29,547: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-14 23:14:29,548: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-14 23:14:29,548: INFO: utility]: created directory at: artifacts
+[2023-07-14 23:14:29,548: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-14 23:14:29,548: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-14 23:14:29,557: INFO: utility]: created directory at: artifacts/training
+[2023-07-15 16:14:55,935: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-15 16:14:55,936: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-15 16:14:56,605: INFO: stg3_training]: *******************
+[2023-07-15 16:14:56,605: INFO: stg3_training]: >>>>>> stage Training started <<<<<<
+[2023-07-15 16:14:56,607: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-15 16:14:56,608: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-15 16:14:56,608: INFO: utility]: created directory at: artifacts
+[2023-07-15 16:14:56,608: INFO: utility]: created directory at: artifacts/prepare_callbacks/checkpoint_dir
+[2023-07-15 16:14:56,608: INFO: utility]: created directory at: artifacts/prepare_callbacks/tensorboard_log_dir
+[2023-07-15 16:14:56,609: INFO: utility]: created directory at: artifacts/training
+[2023-07-15 17:18:48,237: INFO: stg3_training]: >>>>>> stage Training completed <<<<<<
+
+x==========x
+[2023-07-15 17:19:44,626: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-15 17:19:44,626: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-15 17:19:45,285: INFO: stg4_evaluation]: *******************
+[2023-07-15 17:19:45,285: INFO: stg4_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2023-07-15 17:19:45,286: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-15 17:19:45,288: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-15 17:19:45,288: INFO: utility]: created directory at: artifacts
+[2023-07-15 17:19:47,406: ERROR: stg4_evaluation]: [Errno 2] No such file or directory: 'artifacts/data_ingestion/arhive/ASL_Dataset/Train'
+Traceback (most recent call last):
+  File "src/ASL_alphabet/pipeline/stg4_evaluation.py", line 19, in <module>
+    main()
+  File "src/ASL_alphabet/pipeline/stg4_evaluation.py", line 12, in main
+    evaluation.evaluation()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/Evaluation.py", line 46, in evaluation
+    self._valid_generator()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/Evaluation.py", line 32, in _valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "/home/lang_chain/Documents/ASL_alphabet/.venv/lib/python3.8/site-packages/keras/src/preprocessing/image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "/home/lang_chain/Documents/ASL_alphabet/.venv/lib/python3.8/site-packages/keras/src/preprocessing/image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/arhive/ASL_Dataset/Train'
+[2023-07-15 17:37:12,950: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-15 17:37:12,950: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-15 17:37:13,540: INFO: stg4_evaluation]: *******************
+[2023-07-15 17:37:13,540: INFO: stg4_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2023-07-15 17:37:13,542: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-15 17:37:13,543: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-15 17:37:13,544: INFO: utility]: created directory at: artifacts
+[2023-07-15 17:37:15,622: ERROR: stg4_evaluation]: [Errno 2] No such file or directory: 'artifacts/data_ingestion/arhive/ASL_Dataset/Train'
+Traceback (most recent call last):
+  File "src/ASL_alphabet/pipeline/stg4_evaluation.py", line 19, in <module>
+    main()
+  File "src/ASL_alphabet/pipeline/stg4_evaluation.py", line 12, in main
+    evaluation.evaluation()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/Evaluation.py", line 46, in evaluation
+    self._valid_generator()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/Evaluation.py", line 32, in _valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "/home/lang_chain/Documents/ASL_alphabet/.venv/lib/python3.8/site-packages/keras/src/preprocessing/image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "/home/lang_chain/Documents/ASL_alphabet/.venv/lib/python3.8/site-packages/keras/src/preprocessing/image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/arhive/ASL_Dataset/Train'
+[2023-07-15 17:40:39,524: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-07-15 17:40:39,525: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-07-15 17:40:39,958: INFO: stg4_evaluation]: *******************
+[2023-07-15 17:40:39,958: INFO: stg4_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2023-07-15 17:40:39,959: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-15 17:40:39,960: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-15 17:40:39,960: INFO: utility]: created directory at: artifacts
+[2023-07-15 17:41:43,480: INFO: utility]: json file saved at: scores.json
+[2023-07-15 17:41:43,480: INFO: stg4_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2023-07-17 18:32:53,626: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-17 18:32:53,632: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-17 18:32:53,633: INFO: utility]: created directory at: artifacts
+[2023-07-17 18:33:54,525: INFO: utility]: json file saved at: scores.json
+[2023-07-17 18:36:54,742: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-17 18:36:54,744: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-17 18:36:54,744: INFO: utility]: created directory at: artifacts
+[2023-07-17 18:37:52,964: INFO: utility]: json file saved at: scores.json
+[2023-07-17 18:49:42,075: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-07-17 18:49:42,077: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-07-17 18:49:42,078: INFO: utility]: created directory at: artifacts
+[2023-07-17 18:50:33,770: INFO: utility]: json file saved at: scores.json
+[2023-08-02 10:55:46,935: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-08-02 10:55:46,936: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-08-02 10:55:47,584: INFO: app]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-08-02 10:55:47,586: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-08-02 10:55:47,587: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-08-02 10:55:47,587: INFO: utility]: created directory at: artifacts
+[2023-08-02 10:55:47,588: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-08-02 10:55:47,588: INFO: data_ingestion]: Trying to download file...
+[2023-08-02 10:55:47,588: INFO: data_ingestion]: File already exists of size: ~ 4861388 KB
+[2023-08-02 10:56:45,504: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-08-02 10:56:45,504: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-08-02 10:56:46,093: INFO: app]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-08-02 10:56:46,094: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-08-02 10:56:46,095: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-08-02 10:56:46,095: INFO: utility]: created directory at: artifacts
+[2023-08-02 10:56:46,095: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-08-02 10:56:46,096: INFO: data_ingestion]: Trying to download file...
+[2023-08-02 10:56:46,096: INFO: data_ingestion]: Download started...
+[2023-08-02 10:56:46,430: INFO: data_ingestion]: artifacts/data_ingestion/archive.zip download! with following info: 
+Content-Type: text/html; charset=utf-8
+Date: Wed, 02 Aug 2023 14:56:46 GMT
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Set-Cookie: ka_sessionid=e4f59f626f7c23608199dab6d4cb009a; max-age=2626560; path=/
+Set-Cookie: CSRF-TOKEN=CfDJ8EZ2faRVQIFGpwN_2tTd7YOcGwGTZntdoR-_7ZGjdUIFSspYJGcXaFUuoPAJwnxf91a8TJ6VcP4cjZQKT4Z3z9xwVEFnNMsuoh9zZVL3cQ; path=/; secure; samesite=lax; httponly
+Set-Cookie: XSRF-TOKEN=CfDJ8EZ2faRVQIFGpwN_2tTd7YPsjgEY4Qsqb64vML2XST_dO2mcN6aeBOtSeYA6Z__aFbjbD4wdTvDLO-Er9xx-O5D1meg0svKWARDcBD2sNhpsuw; path=/; secure; samesite=lax
+Set-Cookie: CLIENT-TOKEN=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJpc3MiOiJrYWdnbGUiLCJhdWQiOiJjbGllbnQiLCJzdWIiOm51bGwsIm5idCI6IjIwMjMtMDgtMDJUMTQ6NTY6NDYuMzg0MjY3MloiLCJpYXQiOiIyMDIzLTA4LTAyVDE0OjU2OjQ2LjM4NDI2NzJaIiwianRpIjoiZTgxMzdiMWEtZmRiZi00ZjYyLWJmMTktNTExMWU1NDFlODZhIiwiZXhwIjoiMjAyMy0wOS0wMlQxNDo1Njo0Ni4zODQyNjcyWiIsImFub24iOnRydWUsImZmIjpbIktlcm5lbHNGaXJlYmFzZUxvbmdQb2xsaW5nIiwiQ29tbXVuaXR5TG93ZXJIZWFkZXJTaXplcyIsIkFsbG93Rm9ydW1BdHRhY2htZW50cyIsIkZvcmNlTmF2Rm9vdGVyT25Nb2JpbGVBbmRUYWJsZXQiLCJGcm9udGVuZEVycm9yUmVwb3J0aW5nIiwiRGF0YXNldHNNYW5hZ2VkRm9jdXNPbk9wZW4iLCJEb2lEYXRhc2V0VG9tYnN0b25lcyIsIkNoYW5nZURhdGFzZXRPd25lcnNoaXBUb09yZyIsIktlcm5lbEVkaXRvckhhbmRsZU1vdW50T25jZSIsIlBhZ2VWaXNpYmlsaXR5QW5hbHl0aWNzUmVwb3J0ZXIiLCJNYXVSZXBvcnQiLCJNb2RlbHNDYWNoZWRUYWdTZXJ2aWNlRW5hYmxlZCIsIk1vZGVsc1Nob3dGaWxlRXhwbG9yZXIiLCJDb21wZXRpdGlvbnNSdWxlc0ttIiwiRGF0YXNldHNTaGFyZWRXaXRoVGhlbVNlYXJjaCIsIkRhdGFzZXRzVm90aW5nQ2hpcHMiLCJUYWdzTWVudVNsaWRlclBhbmVsIiwiTW9kZWxJbnN0YW5jZVJlbmRlcmVkVXNhZ2UiLCJSZWNlbnRseVZpZXdlZE1vZGVsc1NoZWxmIl0sImZmZCI6eyJLZXJuZWxFZGl0b3JBdXRvc2F2ZVRocm90dGxlTXMiOiIzMDAwMCIsIkZyb250ZW5kRXJyb3JSZXBvcnRpbmdTYW1wbGVSYXRlIjoiMCIsIkVtZXJnZW5jeUFsZXJ0QmFubmVyIjoie30iLCJDbGllbnRScGNSYXRlTGltaXQiOiI0MCIsIkZlYXR1cmVkQ29tbXVuaXR5Q29tcGV0aXRpb25zIjoiNTIzMDAiLCJBZGRGZWF0dXJlRmxhZ3NUb1BhZ2VMb2FkVGFnIjoiZGlzYWJsZWQiLCJDb21wZXRpdGlvbk1ldHJpY1RpbWVvdXRNaW51dGVzIjoiMzAifSwicGlkIjoia2FnZ2xlLTE2MTYwNyIsInN2YyI6IndlYi1mZSIsInNkYWsiOiJBSXphU3lBNGVOcVVkUlJza0pzQ1pXVnotcUw2NTVYYTVKRU1yZUUiLCJibGQiOiJjODljNjM2NTFmOGEzNmJiNTE5YTY2NWY0NzQwNzQ0NzlmMzIyOGNjIn0.; path=/; secure; samesite=lax
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Turbolinks-Location: https://www.kaggle.com/account/login?titleType=dataset-downloads&showDatasetDownloadSkip=False&messageId=datasetsWelcome&returnUrl=%2Fdatasets%2Fkapillondhe%2Famerican-sign-language%2Fversions%2F1%3Fresource%3Ddownload
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Content-Security-Policy: object-src 'none'; script-src 'nonce-E2V0j/J3ZjJofjOHhI6/gg==' 'report-sample' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:; base-uri 'none'; report-uri https://csp.withgoogle.com/csp/kaggle/20201130; frame-src 'self' https://www.kaggleusercontent.com https://www.youtube.com/embed/ https://polygraph-cool.github.io https://www.google.com/recaptcha/ https://form.jotform.com https://submit.jotform.us https://submit.jotformpro.com https://submit.jotform.com https://www.docdroid.com https://www.docdroid.net https://kaggle-static.storage.googleapis.com https://kkb-production.jupyter-proxy.kaggle.net https://kkb-production.firebaseapp.com https://kaggle-metastore.firebaseapp.com https://apis.google.com https://content-sheets.googleapis.com/ https://accounts.google.com/ https://storage.googleapis.com https://docs.google.com https://drive.google.com https://calendar.google.com/;
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Via: 1.1 google
+Set-Cookie: GCLB=CIb-pcTVzKXTCw; path=/; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Connection: close
+
+
+[2023-08-02 10:56:46,430: ERROR: app]: File is not a zip file
+Traceback (most recent call last):
+  File "app.py", line 17, in <module>
+    main()
+  File "app.py", line 12, in main
+    data_ingestion.check_and_extract_videos()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/data_ingestion.py", line 43, in check_and_extract_videos
+    raise  e
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/data_ingestion.py", line 37, in check_and_extract_videos
+    with ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "/home/lang_chain/Documents/ASL_alphabet/env/lib/python3.8/zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "/home/lang_chain/Documents/ASL_alphabet/env/lib/python3.8/zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2023-08-02 10:59:37,572: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-08-02 10:59:37,572: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-08-02 10:59:38,029: INFO: app]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-08-02 10:59:38,031: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-08-02 10:59:38,032: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-08-02 10:59:38,032: INFO: utility]: created directory at: artifacts
+[2023-08-02 10:59:38,032: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-08-02 10:59:38,032: INFO: data_ingestion]: Trying to download file...
+[2023-08-02 10:59:38,032: INFO: data_ingestion]: File already exists of size: ~ 5 KB
+[2023-08-02 10:59:38,033: ERROR: app]: File is not a zip file
+Traceback (most recent call last):
+  File "app.py", line 17, in <module>
+    main()
+  File "app.py", line 12, in main
+    data_ingestion.check_and_extract_videos()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/data_ingestion.py", line 46, in check_and_extract_videos
+    raise  e
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/data_ingestion.py", line 40, in check_and_extract_videos
+    with ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "/home/lang_chain/Documents/ASL_alphabet/env/lib/python3.8/zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "/home/lang_chain/Documents/ASL_alphabet/env/lib/python3.8/zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2023-08-02 11:01:58,000: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-08-02 11:01:58,000: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-08-02 11:01:58,459: INFO: app]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-08-02 11:01:58,460: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-08-02 11:01:58,461: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-08-02 11:01:58,461: INFO: utility]: created directory at: artifacts
+[2023-08-02 11:01:58,462: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-08-02 11:01:58,462: INFO: data_ingestion]: Trying to download file...
+[2023-08-02 11:01:58,462: INFO: data_ingestion]: File already exists of size: ~ 5 KB
+[2023-08-02 11:01:58,462: ERROR: app]: File is not a zip file
+Traceback (most recent call last):
+  File "app.py", line 17, in <module>
+    main()
+  File "app.py", line 12, in main
+    data_ingestion.check_and_extract_videos()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/data_ingestion.py", line 54, in check_and_extract_videos
+    raise  e
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/data_ingestion.py", line 48, in check_and_extract_videos
+    with ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "/home/lang_chain/Documents/ASL_alphabet/env/lib/python3.8/zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "/home/lang_chain/Documents/ASL_alphabet/env/lib/python3.8/zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2023-08-02 11:03:51,626: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-08-02 11:03:51,626: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-08-02 11:03:52,113: INFO: app]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-08-02 11:03:52,115: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-08-02 11:03:52,116: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-08-02 11:03:52,116: INFO: utility]: created directory at: artifacts
+[2023-08-02 11:03:52,116: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-08-02 11:03:52,116: INFO: data_ingestion]: Trying to download file...
+[2023-08-02 11:03:52,116: INFO: data_ingestion]: File already exists of size: ~ 5 KB
+[2023-08-02 11:03:52,116: ERROR: app]: File is not a zip file
+Traceback (most recent call last):
+  File "app.py", line 17, in <module>
+    main()
+  File "app.py", line 12, in main
+    data_ingestion.check_and_extract_videos()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/data_ingestion.py", line 54, in check_and_extract_videos
+    raise  e
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/data_ingestion.py", line 48, in check_and_extract_videos
+    with ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "/home/lang_chain/Documents/ASL_alphabet/env/lib/python3.8/zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "/home/lang_chain/Documents/ASL_alphabet/env/lib/python3.8/zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2023-08-02 11:07:16,622: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-08-02 11:07:16,622: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-08-02 11:07:17,082: INFO: app]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-08-02 11:07:17,083: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-08-02 11:07:17,084: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-08-02 11:07:17,084: INFO: utility]: created directory at: artifacts
+[2023-08-02 11:07:17,084: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-08-02 11:07:17,084: INFO: data_ingestion]: Trying to download file...
+[2023-08-02 11:07:17,084: INFO: data_ingestion]: File already exists of size: ~ 5 KB
+[2023-08-02 11:07:17,084: ERROR: app]: File is not a zip file
+Traceback (most recent call last):
+  File "app.py", line 17, in <module>
+    main()
+  File "app.py", line 12, in main
+    data_ingestion.check_and_extract_videos()
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/data_ingestion.py", line 54, in check_and_extract_videos
+    raise  e
+  File "/home/lang_chain/Documents/ASL_alphabet/src/ASL_alphabet/components/data_ingestion.py", line 48, in check_and_extract_videos
+    with ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "/home/lang_chain/Documents/ASL_alphabet/env/lib/python3.8/zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "/home/lang_chain/Documents/ASL_alphabet/env/lib/python3.8/zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2023-08-02 11:12:56,259: INFO: utils]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-08-02 11:12:56,260: INFO: utils]: NumExpr defaulting to 8 threads.
+[2023-08-02 11:12:56,731: INFO: app]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2023-08-02 11:12:56,733: INFO: utility]: yaml file: configs/config.yaml loaded successfully
+[2023-08-02 11:12:56,734: INFO: utility]: yaml file: params.yaml loaded successfully
+[2023-08-02 11:12:56,734: INFO: utility]: created directory at: artifacts
+[2023-08-02 11:12:56,734: INFO: utility]: created directory at: artifacts/data_ingestion
+[2023-08-02 11:12:56,734: INFO: data_ingestion]: Trying to download file...
+[2023-08-02 11:12:56,734: INFO: data_ingestion]: File already exists of size: ~ 4861388 KB
+[2023-08-02 11:13:22,773: INFO: data_ingestion]: extraction completed
+[2023-08-02 11:13:22,811: INFO: app]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x

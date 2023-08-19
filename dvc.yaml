@@ -1,0 +1,56 @@
+stages:
+  data_ingestion:
+    cmd: python src/ASL_alphabet/pipeline/stg1_data_Ingestio.py
+    deps:
+      - src/ASL_alphabet/pipeline/stg1_data_Ingestio.py
+      - configs/config.yaml
+    outs:
+      - artifacts/data_ingestion/ASL_Dataset/Train
+
+  prepare_base_model:
+    cmd: python src/ASL_alphabet/pipeline/stg2_prepare_base_model.py
+    deps:
+      - src/ASL_alphabet/pipeline/stg2_prepare_base_model.py
+      - configs/config.yaml
+    params:
+      - KERNEL_LAYERS1
+      - KERNEL_LAYERS2
+      - KERNEL_LAYERS3
+      - CLASSES
+      - FINAL_OUTPUT_LAYERS
+      - IMAGE_SIZE
+   
+
+    outs:
+      - artifacts/prepare_base_model
+
+
+  training:
+    cmd: python src/ASL_alphabet/pipeline/stg3_training.py
+    deps:
+      - src/ASL_alphabet/pipeline/stg3_training.py
+      - src/ASL_alphabet/components/prepare_callback.py
+      - configs/config.yaml
+      - artifacts/data_ingestion/ASL_Dataset/Train
+      - artifacts/prepare_base_model
+    params:
+      - IMAGE_SIZE
+      - EPOCHS
+      - BATCH_SIZE
+      - AUGMENTATION
+    outs:
+      - artifacts/training/model.h5
+
+  evaluation:
+    cmd: python src/ASL_alphabet/pipeline/stg4_evaluation.py
+    deps:
+      - src/ASL_alphabet/pipeline/stg4_evaluation.py
+      - configs/config.yaml
+      - artifacts/data_ingestion/ASL_Dataset/Train
+      - artifacts/training/model.h5
+    params:
+      - IMAGE_SIZE
+      - BATCH_SIZE
+    metrics:
+    - scores.json:
+        cache: false
